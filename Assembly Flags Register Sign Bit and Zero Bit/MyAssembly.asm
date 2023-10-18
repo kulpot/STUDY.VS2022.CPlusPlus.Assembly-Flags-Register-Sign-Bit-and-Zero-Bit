@@ -12,6 +12,7 @@ doit proc
 	
 	; ---------- Assembly Flags Register Sign Bit and Zero Bit -------------
 
+	; EFL --- Flags registers - 32bits
 
 
 
@@ -22,8 +23,7 @@ doit proc
 
 
 
-
-
+	ret
 
 	; --------------- Assembly Loop Primer ---------------
 	; 1 + 2 + 3 + 4 + 5 = 15
