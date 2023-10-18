@@ -10,7 +10,7 @@ doit proc
 
 	; this is a comment i can type whatever i like after a semicolon and assembler will ignore it
 	
-
+	; ---------- Assembly Flags Register Sign Bit and Zero Bit -------------
 
 
 
