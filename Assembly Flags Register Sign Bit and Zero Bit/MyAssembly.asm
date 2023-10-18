@@ -12,9 +12,11 @@ doit proc
 	
 	; ---------- Assembly Flags Register Sign Bit and Zero Bit -------------
 
-	; EFL --- Flags registers - 32bits
+	; EFL --- Flags registers(off/on) - 32bits(boleans bits)
+	; compare instructions --- sign (1(negative) 0(Positive)), zero (1(0value) 0(not0value))
 
-
+	mov eax, 1
+	cmp eax, 2	; compare(substract), 1-2 = -1, 10
 
 
 
